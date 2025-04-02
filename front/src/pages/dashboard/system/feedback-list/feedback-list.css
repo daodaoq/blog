@@ -1,0 +1,30 @@
+.feedback-list {
+  padding: 20px;
+}
+
+.feedback-list .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.feedback-list .title h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.feedback-list .button-group {
+  display: flex;
+  gap: 16px;
+}
+
+.feedback-list .ant-table {
+  border: 1px solid #dcdfe6;
+}
+
+.feedback-list .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

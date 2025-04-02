@@ -1,0 +1,45 @@
+.user-info {
+  padding: 20px;
+}
+
+.user-info .info,
+.user-info .operation,
+.user-info .card {
+  margin-bottom: 24px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info .title {
+  margin-bottom: 16px;
+}
+
+.user-info .title-border {
+  border-left: 5px solid #1890ff;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-info .content {
+  margin: 20px;
+}
+
+.user-info .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.user-info .ant-form-item-label {
+  font-weight: bold;
+}
+
+.user-info .ant-input,
+.user-info .ant-input-textarea {
+  width: 100%;
+}
+
+.user-info .ant-btn {
+  margin-right: 8px;
+}

@@ -1,0 +1,22 @@
+.comment-list {
+  padding: 20px;
+}
+
+.comment-list .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment-list .comment-list-request {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.comment-list .pagination {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.friend-link-list {
+  padding: 20px;
+}
+
+.friend-link-list .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.friend-link-list .title h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.friend-link-list .button-group {
+  display: flex;
+  gap: 16px;
+}
+
+.friend-link-list .friend-link-list-request {
+  border: 1px solid #dcdfe6;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.friend-link-list .ant-table {
+  border: 1px solid #dcdfe6;
+}
+
+.friend-link-list .ant-image {
+  height: 48px;
+}
+
+.friend-link-list .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

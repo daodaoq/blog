@@ -1,0 +1,17 @@
+.user-feedback {
+  padding: 20px;
+}
+
+.user-feedback .title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-feedback .ant-table {
+  border: 1px solid #dcdfe6;
+}
+
+.user-feedback .ant-table .feedback-row {
+  height: 80px;
+}

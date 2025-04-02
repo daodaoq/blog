@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  border-radius: 12px;
+  /* 可选，给容器添加圆角效果 */
+  box-shadow: none !important;
+}
+
+.main {
+  width: 70%;
+  /* 可以根据需要调整main的宽度比例 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.side {
+  width: 30%;
+  /* 可以根据需要调整side的宽度比例 */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  /* 设置卡片之间的竖直间距 */
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* 为卡片添加阴影效果 */
+  padding: 20px;
+  /* 动态高度，根据内容变化 */
+  height: auto;
+  /* 关键：自动调整高度 */
+  min-height: 0;
+  /* 防止意外的最小高度限制 */
+}
+
+/* 可选，增加卡片的hover效果，增强交互感 */
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  /* 鼠标悬停时阴影效果增强 */
+}

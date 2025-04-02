@@ -1,0 +1,14 @@
+/* UserChart.css */
+.chart-container {
+  height: 300px;
+  /* 设置图表容器的高度 */
+  width: 100%;
+  /* 设置图表容器的宽度 */
+}
+
+/* 在小屏幕上调整高度 */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 200px;
+  }
+}

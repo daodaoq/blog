@@ -1,0 +1,104 @@
+.home {
+  width: 100%;
+}
+
+.home .header {
+  margin-bottom: 20px;
+}
+
+.home .header .user-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 添加阴影 */
+  max-width: none;
+  /* align-items: center; */
+  display: flex; /* 启用 Flexbox 布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  height: 100px; /* 设置一个固定高度 */
+}
+
+.home .header .user-card .ant-row {
+  font-size: 32px;
+}
+
+.home .header .user-card .weather {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home .content {
+  display: flex;
+}
+
+.home .content .entrance-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 添加阴影 */
+}
+
+.home .content .entrance-card .title {
+  font-size: 24px;
+}
+
+.home .content .entrance-card .button-group {
+  display: flex;
+  justify-content: space-between;
+  /* 调整按钮间距 */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home .content .entrance-card .button-group .button-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+  /* 调整宽度 */
+}
+
+.home .content .entrance-card .button-group .entrance-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  /* 调整高度 */
+  font-size: 16px;
+  border-radius: 8px;
+  /* 圆角 */
+}
+
+.home .content .chart-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 添加阴影 */
+}
+
+.home .content .chart-card .title {
+  font-size: 24px;
+}
+
+.home .content .chart-card .time-select {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.home .content .chart-card .time-select .ant-select {
+  margin-left: auto;
+}
+
+.home .content .aside {
+  margin-left: 20px;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 添加阴影 */
+}
+
+.home .content .aside .title {
+  font-size: 24px;
+}
+
+.home .content .aside .text {
+  margin-top: 20px;
+}

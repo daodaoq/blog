@@ -1,0 +1,27 @@
+.article-list {
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.article-list-request {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}

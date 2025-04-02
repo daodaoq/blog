@@ -1,0 +1,31 @@
+.dashboard-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.ant-menu {
+  flex: 1;
+  border-right: none;
+}
+
+.ant-menu-item {
+  height: 52px;
+  line-height: 52px;
+}
+
+.ant-menu-submenu-title {
+  height: 52px;
+  line-height: 52px;
+}
+
+.ant-menu-submenu .ant-menu-item {
+  height: 44px;
+  line-height: 44px;
+}

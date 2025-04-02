@@ -1,0 +1,23 @@
+.user-star {
+  padding: 20px;
+}
+
+.user-star .title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-star .ant-table {
+  border: 1px solid #dcdfe6;
+  margin-bottom: 20px;
+}
+
+.user-star .ant-table .ant-image {
+  height: 48px;
+}
+
+.user-star .pagination {
+  display: flex;
+  justify-content: center;
+}

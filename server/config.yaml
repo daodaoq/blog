@@ -1,0 +1,92 @@
+captcha:
+    height: 80
+    width: 240
+    length: 6
+    max_skew: 0.7
+    dot_count: 80
+email:
+    host: smtp.qq.com
+    port: 465
+    from: 2090953265@qq.com
+    nickname: sjk
+    secret: hrssnstsxnpdebgg
+    is_ssl: true
+es:
+    url: http://127.0.0.1:9200
+    username: ""
+    password: ""
+    is_console_print: true
+gaode:
+    enable: true
+    key: 191aad8613d06a659398a406bdc83b8e
+jwt:
+    access_token_secret: 3UATuYwNJT4HGHMRGA8zIypv1ZuiEAHM-EbRIk3kb8A=
+    refresh_token_secret: HoU-tqgF-gF7JZ5dN47mKhgSehHBgXjIGAYCVh09eHk=
+    access_token_expiry_time: 2h
+    refresh_token_expiry_time: 7d
+    issuer: go_blog
+mysql:
+    host: localhost
+    port: 3306
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db_name: blog_db
+    username: root
+    password: 123456
+    max_idle_conns: 10
+    max_open_conns: 100
+    log_mode: info
+qiniu:
+    zone: z1
+    bucket: blogdaodaoq
+    img_path: http://st1yyqi2m.hb-bkt.clouddn.com/
+    access_key: DhkpDzEwmABZrP7RI7KrpYwwBWQJmmq4XUR6c1u1
+    secret_key: 3k1AMC0wu-DMZdGRhBYSt1ncddflLf7zW-pF4NmM
+    use_https: true
+    use_cdn_domains: true
+qq:
+    enable: false
+    app_id: 2090953265@qq.com
+    app_key: S312016903
+    redirect_uri: ""
+redis:
+    address: 127.0.0.1:6379
+    password: ""
+    db: 0
+system:
+    host: 0.0.0.0
+    port: 8080
+    env: release
+    router_prefix: api
+    use_multipoint: true
+    sessions_secret: c1206zSX_Lp2r_DKFFtKFEUao8Ma2P-KCcNHEEdzAEU=
+    oss_type: qiniu
+upload:
+    size: 20
+    path: uploads
+website:
+    logo: ""
+    full_logo: ""
+    title: sjk的个人博客
+    slogan: 博客标题
+    slogan_en: Blog Title
+    description: 博客描述
+    version: 1.0.0
+    created_at: "2025-1-15"
+    icp_filing: icp备案号
+    public_security_filing: 公安备案号
+    bilibili_url: https://space.bilibili.com/1767368541?spm_id_from=333.1007.0.0
+    gitee_url: https://gitee.com/daodaoq
+    github_url: https://github.com/daodaoq
+    name: sjk
+    job: 工作
+    address: 地址
+    email: 2090953265@qq.com
+    qq_image: ""
+    wechat_image: ""
+zap:
+    level: info
+    filename: log/go_blog.log
+    max_size: 200
+    max_backups: 30
+    max_age: 5
+    is_console_print: true

@@ -1,0 +1,23 @@
+.dashboard-tag {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.dashboard-tag .ant-tag {
+  font-size: 14px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.dashboard-tag .ant-tag:hover {
+  opacity: 0.8;
+}
+
+.dashboard-tag .close-button {
+  font-size: 14px;
+  margin-left: auto;
+}

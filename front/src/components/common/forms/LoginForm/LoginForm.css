@@ -1,0 +1,16 @@
+.login-form {
+  display: flex;
+}
+
+.login-form .login-image {
+  max-width: 160px;
+  width: 100%;
+}
+
+.login-form .ant-form .captcha {
+  display: flex;
+}
+
+.login-form .ant-form .captcha .ant-input {
+  height: 40px;
+}

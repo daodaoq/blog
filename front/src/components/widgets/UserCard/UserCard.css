@@ -1,0 +1,29 @@
+.user-card {
+  min-width: 200px;
+  /* 缩小宽度 */
+  min-height: 100px;
+  /* 缩小高度 */
+  padding-top: 30px;
+  /* 减少顶部内边距 */
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 auto;
+  /* 居中卡片 */
+}
+
+.user-info {
+  text-align: center;
+}
+
+.user-info .user-username,
+.user-info .user-address {
+  display: block;
+  margin: 4px;
+  /* 调整上下间距 */
+}
+
+.uuid {
+  margin: 4px 0;
+  /* 减少uuid和签名之间的垂直间距 */
+  padding: 0;
+}

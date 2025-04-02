@@ -1,0 +1,42 @@
+.user-comment {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-comment .title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-comment .table-data {
+  display: flex;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.user-comment .link {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.user-comment .link a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.user-comment .link a:hover {
+  text-decoration: underline;
+}
+
+.user-comment .item {
+  flex: 1;
+  margin-left: 16px;
+}

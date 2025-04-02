@@ -1,0 +1,20 @@
+.register-form {
+  display: flex;
+}
+
+.register-form.register-image {
+  max-width: 240px;
+  width: 100%;
+}
+
+.register-form.ant-form.captcha {
+  display: flex;
+}
+
+.register-form.ant-form.captcha.ant-input {
+  height: 40px;
+}
+
+.register-form.ant-form.el-text {
+  color: red;
+}

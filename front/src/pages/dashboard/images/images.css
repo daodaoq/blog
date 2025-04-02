@@ -1,0 +1,46 @@
+.image-list {
+  padding: 20px;
+}
+
+.image-list .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-list .title h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.image-list .button-group {
+  display: flex;
+  gap: 16px;
+}
+
+.image-list .image-list-request {
+  border: 1px solid #dcdfe6;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-list .image-list-request .ant-form {
+  margin-left: auto;
+}
+
+.image-list .ant-table {
+  border: 1px solid #dcdfe6;
+}
+
+.image-list .ant-table .ant-image {
+  height: 48px;
+}
+
+.image-list .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,105 @@
+.article-list {
+  margin: 20px;
+}
+
+.article-list .title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.article-list .search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.article-list .search .ant-input {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.article-list .category,
+.article-list .tag,
+.article-list .sort {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+
+.article-list .category .ant-radio-group,
+.article-list .tag .ant-radio-group,
+.article-list .sort .ant-radio-group,
+.article-list .sort button {
+  margin-left: 20px;
+}
+
+.article-list .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-list .description .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-list .description .abstract {
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.article-list .description .footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-list .footer .tags {
+  margin-right: auto;
+}
+
+.article-list .footer .status {
+  display: flex;
+  align-items: center;
+}
+
+.article-list .footer .status svg {
+  margin: 0 5px;
+}
+
+.custom-row-class {
+  cursor: pointer;
+}
+
+.ant-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* For the table container with scrolling */
+.table-container {
+  /* max-height: 500px; */
+  /* Adjust the height based on your requirement */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+}
+
+.article-list {
+  margin: 20px;
+  padding: 0;
+  /* 确保没有内边距 */
+}
+
+.article-list .tag {
+  margin: 0;
+  /* 确保没有外边距 */
+  padding: 0;
+  /* 确保没有内边距 */
+  margin-bottom: 20px;
+}
+
+.article-list .tag:hover {
+  background-color: #FFF;
+}

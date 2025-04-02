@@ -1,0 +1,27 @@
+.user-list {
+  padding: 20px;
+}
+
+.user-list .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user-list .user-list-request {
+  border: 1px solid #dcdfe6;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.user-list .ant-table {
+  border: 1px solid #dcdfe6;
+  margin-bottom: 20px;
+}
+
+.user-list .pagination {
+  display: flex;
+  justify-content: center;
+}

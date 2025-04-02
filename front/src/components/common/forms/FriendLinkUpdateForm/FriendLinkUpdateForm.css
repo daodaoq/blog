@@ -1,0 +1,18 @@
+.friend-link-update-form {
+  padding: 20px;
+}
+
+.friend-link-update-form .ant-form-item {
+  margin-bottom: 24px;
+}
+
+.friend-link-update-form .ant-image {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.friend-link-update-form .button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}

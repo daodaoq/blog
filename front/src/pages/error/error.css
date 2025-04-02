@@ -1,0 +1,23 @@
+/* NotFoundPage.css */
+
+/* 设置页面的背景色和内容垂直居中 */
+.not-found-page {
+  padding: 50px;
+  text-align: center;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-page .ant-result {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.not-found-page .ant-btn {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}

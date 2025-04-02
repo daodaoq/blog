@@ -1,0 +1,73 @@
+.friend-link {
+  margin-top: 70px;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  /* border: 1px solid #007bff; */
+  /* 蓝色边框 */
+  border-radius: 8px;
+  /* 圆角边框 */
+}
+
+.el-main {
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.el-card {
+  width: 25%;
+  height: 130px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.el-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.logo-image {
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}

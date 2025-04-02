@@ -1,0 +1,44 @@
+.friend-link-create-form {
+  padding: 20px;
+}
+
+.friend-link-create-form .ant-form-item {
+  margin-bottom: 24px;
+}
+
+.friend-link-create-form .upload-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 8px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.friend-link-create-form .upload-content .container {
+  text-align: center;
+}
+
+.friend-link-create-form .upload-content .upload-icon {
+  font-size: 24px;
+  color: #1890ff;
+}
+
+.friend-link-create-form .upload-content .upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.friend-link-create-form .upload-tip {
+  margin-top: 8px;
+  color: #999;
+  font-size: 12px;
+}
+
+.friend-link-create-form .button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
